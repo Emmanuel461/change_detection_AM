@@ -102,4 +102,4 @@ In this dataset, <strong>&tau; = 0.XXX</strong> emerged as the best value and wa
 
 ## Authors
 - <strong>Jesús Céspedes</strong> and <strong>Jaime Garbanzo-León</strong>  
-- <strong>Date</strong>: May 2025
+- <strong>Date</strong>: August 2025
