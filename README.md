@@ -75,7 +75,7 @@ Change_detection_AM/
    - Save the <strong>binary raster</strong> (1 = pixel experienced early emergence at least once within the year).
    - Spatially join CE sample points (Elalab/Cafine) to the mask and produce **violin plots** (CE IN vs CE OUT) per threshold and year.
 
-2. **Manual threshold selection (per area).** After reviewing plots/metrics, set <code>CHOSEN_THR</code> (e.g., <strong>0.31</strong>). Use a distinct τ per area if needed.
+2. **Manual threshold selection (per area).** After reviewing plots/metrics, set <code>CHOSEN_THR</code> (e.g., <strong>0.33</strong>). Use a distinct τ per area if needed.
 
 3. **Apply the chosen threshold per year.** With <code>CHOSEN_THR</code>, recompute and save the **final rasters** for each year in the area.
 
@@ -96,13 +96,13 @@ Let <span>&Delta;<sub>t</sub>(x) = NDVI<sub>t</sub>(x) − NDVI<sub>t−1</sub>(
 <p align="center"><span>&Delta;NDVI &gt; 0.10 and NDVI<sub>t</sub> &gt; &tau;</span></p>
 The yearly early‑emergence mask <span>E<sub>&tau;</sub></span> is binary (1 = at least one first‑appearance event within the year).
 
-### Threshold selection (example: τ = 0.31)
+### Threshold selection (example: τ = 0.33)
 <strong>Primary metric (per year)</strong> — difference of <strong>medians</strong> of CE between OUT and IN:  
 <p align="center"><span>&Delta;<sup>(y)</sup>(&tau;) = median(CE<sub>OUT</sub><sup>(y)</sup>) − median(CE<sub>IN</sub><sup>(y)</sup>)</span></p>
 <strong>Aggregate score (within an area):</strong>  
 <p align="center"><span>S(&tau;) = average<sub>y ∈ {years}</sub>{ &Delta;<sup>(y)</sup>(&tau;) }</span></p>
 <strong>Decision:</strong> choose the <span>&tau;</span> that maximizes separation (lower CE in IN, higher in OUT) with reasonable spatial realism and sample counts, and with violin plots showing minimal overlap.  
-In our experiments, <strong>&tau; = 0.31</strong> has been effective; adjust if your violin plots suggest otherwise.
+In our experiments, <strong>&tau; = 0.33</strong> has been effective; adjust if your violin plots suggest otherwise.
 
 ---
 
@@ -120,7 +120,7 @@ In our experiments, <strong>&tau; = 0.31</strong> has been effective; adjust if 
 
 ## Quick Use
 1. **Run** `elalab_flow.py` and/or `cafine_flow_simple.py` with `CHOSEN_THR = None` to generate **all per‑threshold rasters** and **violin plots** per year.  
-2. **Inspect** the violin plots and set `CHOSEN_THR` for each area (e.g., `0.31`).  
+2. **Inspect** the violin plots and set `CHOSEN_THR` for each area (e.g., `0.33`).  
 3. **Re‑run** to build the final per‑year rasters, the **AM** (raster + shapefile), the **Excel** tables, and (optionally) the **inline Folium map**.
 
 ---
