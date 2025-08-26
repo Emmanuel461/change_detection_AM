@@ -68,7 +68,7 @@ Change_detection_AM/
 
 ## Workflow (per area)
 1. **Per‑year threshold sweep.** For each year in the area, evaluate NDVI thresholds:  
-   <p><strong>&tau; ∈ [0.15, 0.50] (step 0.02)</strong></p>
+   <p><strong>&tau; ∈ [0.15, 0.50] (step 0.01)</strong></p>
    At each threshold:
    - Detect <strong>early emergence</strong> using:  
      <p><span>&Delta;NDVI = NDVI<sub>t</sub> − NDVI<sub>t−1</sub> &gt; 0.10 and NDVI<sub>t</sub> &gt; &tau;</span></p>
