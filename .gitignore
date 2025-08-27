@@ -3,7 +3,6 @@ Data/Shapefiles/Cafine_salt_UTM.dbf
 Data/Shapefiles/Cafine_salt_UTM.prj
 Data/Shapefiles/Cafine_salt_UTM.qmd
 Data/Shapefiles/Cafine_salt_UTM.shp
-Data/Shapefiles/Cafine_salt_UTM.shp.DESKTOP-RFJCQTH.21356.17100.sr.lock
 Data/Shapefiles/Cafine_salt_UTM.shx
 Data/Shapefiles/Cafine_UTM.qmd
 Data/Shapefiles/Elalab_salt_UTM.cpg
@@ -13,8 +12,7 @@ Data/Shapefiles/Elalab_salt_UTM.qmd
 Data/Shapefiles/Elalab_salt_UTM.shp
 Data/Shapefiles/Elalab_salt_UTM.shx
 Data/Shapefiles/Elalab_UTM.qmd
-Results/cafine/AM_points_summary_thr_0.31.xlsx
-Results/cafine/2019/cafine_2019_points_by_threshold.csv
-Results/cafine/2019/cafine_2019_stats_by_threshold.csv
-Results/cafine/2023/cafine_2023_earlyveg_binary_thr_0.25.tif.aux.xml
-Results/Elalab/AM_points_summary_thr_0.31.xlsx
+Results/Cafine_Cafal/AM_points_summary_thr_0.33.xlsx
+Results/Elalab/AM_points_summary_thr_0.33.xlsx
+Data/Images/Cafine_Cafal
+Data/Images/Elalab
