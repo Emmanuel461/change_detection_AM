@@ -1,5 +1,5 @@
 #  NDVI-Based Early Vegetation & Salinity Zoning — **Elalab** & **Cafine**
-
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Emmanuel461/change_detection_AM)
 This repository implements a reproducible workflow to detect the **first appearance of vegetation** from multi-temporal **NDVI** and use it as a proxy for **soil salinity**. Pixels that green up earlier tend to sit over **low-salinity (“sweet”) soils**, while delayed greening suggests higher salinity. The **same layout and methods** are applied to two study areas: **Elalab** and **Cafine**.
 
 ---
