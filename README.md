@@ -125,6 +125,8 @@ In our experiments, <strong>&tau; = 0.33</strong> has been effective; adjust if 
 
 ---
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Emmanuel461/change_detection_AM)
+
 ## Dependencies
 Python 3.x · `numpy` · `pandas` · `rasterio` · `geopandas` · `matplotlib` · `shapely` · `folium` · `xlsxwriter`
 
