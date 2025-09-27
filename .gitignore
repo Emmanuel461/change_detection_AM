@@ -55,7 +55,18 @@ Results/AM_points_summary_thr_0.26_Cafine.xlsx
 Results/AM_points_summary_thr_0.26_Elalab.xlsx
 Results/Elalab/AM_points_summary_thr_0.32.xlsx
 Results/Cafine_Cafal/AM_points_summary_thr_0.26.xlsx 
-.gitignore
+
 Data/Shapefiles/Elalab_salt_UTM.qix
 Data/Shapefiles/Elalab_salt_UTM.dbf
 
+Results/Cafine_Cafal/AM_points_summary_thr_0.30.xlsx
+Results/Cafine_Cafal/AM_points_summary_thr_0.35.xlsx
+Results/Cafine_Cafal/AM_points_summary_thr_0.40.xlsx
+Results/Cafine_Cafal/AM_points_summary_thr_0.45.xlsx
+Results/Cafine_Cafal/AM_points_summary_thr_0.50.xlsx
+Results/Elalab/AM_points_summary_thr_0.30.xlsx
+Results/Elalab/AM_points_summary_thr_0.35.xlsx
+Results/Elalab/AM_points_summary_thr_0.40.xlsx
+Results/Elalab/AM_points_summary_thr_0.45.xlsx
+Results/Elalab/AM_points_summary_thr_0.50.xlsx
+.gitignore
